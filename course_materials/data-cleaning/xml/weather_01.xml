@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.nws.noaa.gov/forecasts/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="glance" operational-mode="official">
+      <title>NOAA's National Weather Service Forecast at a Glance</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2017-05-01T03:10:17Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="41.87" longitude="-87.65"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">http://forecast.weather.gov/MapClick.php?textField1=41.87&amp;textField2=-87.65</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-1</layout-key>
+      <start-valid-time period-name="Tomorrow">2017-05-01T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-01T20:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Tuesday">2017-05-02T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-02T20:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Wednesday">2017-05-03T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-03T20:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Thursday">2017-05-04T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-04T20:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Friday">2017-05-05T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-05T20:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Saturday">2017-05-06T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-06T20:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Sunday">2017-05-07T08:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-07T20:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-2</layout-key>
+      <start-valid-time period-name="Tonight">2017-04-30T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-01T09:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow Night">2017-05-01T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-02T09:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Tuesday Night">2017-05-02T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-03T09:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Wednesday Night">2017-05-03T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-04T09:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Thursday Night">2017-05-04T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-05T09:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Friday Night">2017-05-05T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-06T09:00:00-05:00</end-valid-time>
+      <start-valid-time period-name="Saturday Night">2017-05-06T20:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-05-07T09:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3h-n40-3</layout-key>
+      <start-valid-time>2017-04-30T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-06T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-06T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-06T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-06T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-07T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-07T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-07T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-07T19:00:00-05:00</start-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1h-n78-4</layout-key>
+      <start-valid-time>2017-04-30T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-04-30T23:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T00:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T02:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T03:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T05:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T06:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T08:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T09:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T11:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T12:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T14:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T15:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T17:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T18:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T20:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T21:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-01T23:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T00:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T02:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T03:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T05:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T06:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T08:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T09:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T11:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T12:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T14:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T15:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T17:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T18:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T20:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T21:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-02T23:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T00:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T02:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T03:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T05:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T06:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T08:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T09:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T11:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T12:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T14:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T15:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T17:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T18:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-03T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-04T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-05-05T19:00:00-05:00</start-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n7-1">
+        <name>Daily Maximum Temperature</name>
+        <value>55</value>
+        <value>53</value>
+        <value>53</value>
+        <value>54</value>
+        <value>57</value>
+        <value>58</value>
+        <value>61</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n7-2">
+        <name>Daily Minimum Temperature</name>
+        <value>47</value>
+        <value>41</value>
+        <value>40</value>
+        <value>42</value>
+        <value>44</value>
+        <value>45</value>
+        <value>46</value>
+      </temperature>
+      <cloud-amount type="total" units="percent" time-layout="k-p3h-n40-3">
+        <name>Cloud Cover Amount</name>
+        <value>100</value>
+        <value>92</value>
+        <value>91</value>
+        <value>78</value>
+        <value>86</value>
+        <value>91</value>
+        <value>88</value>
+        <value>91</value>
+        <value>92</value>
+        <value>91</value>
+        <value>86</value>
+        <value>81</value>
+        <value>81</value>
+        <value>82</value>
+        <value>83</value>
+        <value>73</value>
+        <value>45</value>
+        <value>36</value>
+        <value>22</value>
+        <value>32</value>
+        <value>33</value>
+        <value>46</value>
+        <value>44</value>
+        <value>58</value>
+        <value>67</value>
+        <value>68</value>
+        <value>46</value>
+        <value>28</value>
+        <value>23</value>
+        <value>30</value>
+        <value>22</value>
+        <value>17</value>
+        <value>19</value>
+        <value>30</value>
+        <value>24</value>
+        <value>25</value>
+        <value>16</value>
+        <value>25</value>
+        <value>17</value>
+        <value>23</value>
+      </cloud-amount>
+      <weather time-layout="k-p3h-n40-3">
+        <name>Weather Type, Coverage, and Intensity</name>
+        <weather-conditions>
+          <value coverage="definitely" intensity="moderate" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+          <value coverage="chance" intensity="none" additive="and" weather-type="thunderstorms" qualifier="heavy rain">
+            <visibility xsi:nil="true"/>
+          </value>
+          <value coverage="patchy" intensity="none" additive="and" weather-type="fog" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="slight chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="likely" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="slight chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions>
+          <value coverage="slight chance" intensity="light" weather-type="rain showers" qualifier="none">
+            <visibility xsi:nil="true"/>
+          </value>
+        </weather-conditions>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+        <weather-conditions/>
+      </weather>
+      <conditions-icon type="forecast-NWS" time-layout="k-p3h-n40-3">
+        <name>Conditions Icons</name>
+        <icon-link>http://forecast.weather.gov/images/wtf/ntsra90.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nra90.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nra90.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/shra90.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/shra60.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/shra60.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/shra60.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/shra60.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nra40.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nra40.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nra40.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nsct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nsct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nfew.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nfew.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nfew.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/nfew.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+        <icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+      </conditions-icon>
+      <hazards time-layout="k-p1h-n78-4">
+        <name>Watches, Warnings, and Advisories</name>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions>
+          <hazard hazardCode="FF.A" phenomena="Flash Flood" significance="Watch" hazardType="long duration">
+            <hazardTextURL>http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;wwa=Flash%20Flood%20Watch</hazardTextURL>
+          </hazard>
+        </hazard-conditions>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+        <hazard-conditions/>
+      </hazards>
+    </parameters>
+  </data>
+</dwml>

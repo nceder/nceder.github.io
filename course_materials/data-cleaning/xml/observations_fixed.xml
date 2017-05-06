@@ -1,0 +1,477 @@
+<dwml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:noNamespaceSchemaLocation="http://www.nws.noaa.gov/forecasts/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="glance" operational-mode="official">
+      <title>
+	NOAA's National Weather Service Forecast at a Glance
+      </title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2017-01-08T02:52:41Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
+      <production-center>
+	Meteorological Development Laboratory
+	<sub-center>Product Generation Branch</sub-center>
+      </production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="41.78" longitude="-88.65"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">
+      http://forecast.weather.gov/MapClick.php?textField1=41.87&amp;textField2=-87.65
+    </moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-1</layout-key>
+      <start-valid-time period-name="Tomorrow">2017-01-08T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-08T19:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Monday">2017-01-09T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-09T19:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Tuesday">2017-01-10T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-10T19:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Wednesday">2017-01-11T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-11T19:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Thursday">2017-01-12T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-12T19:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Friday">2017-01-13T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-13T19:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Saturday">2017-01-14T07:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-14T19:00:00-06:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-2</layout-key>
+      <start-valid-time period-name="Tonight">2017-01-07T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-08T08:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Tomorrow Night">2017-01-08T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-09T08:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Monday Night">2017-01-09T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-10T08:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Tuesday Night">2017-01-10T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-11T08:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Wednesday Night">2017-01-11T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-12T08:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Thursday Night">2017-01-12T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-13T08:00:00-06:00</end-valid-time>
+      <start-valid-time period-name="Friday Night">2017-01-13T19:00:00-06:00</start-valid-time>
+      <end-valid-time>2017-01-14T08:00:00-06:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3h-n40-3</layout-key>
+      <start-valid-time>2017-01-07T21:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T03:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T09:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T15:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T21:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T03:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T09:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T15:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T21:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T03:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T09:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T15:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-13T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-13T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-13T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-13T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-14T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-14T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-14T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-14T18:00:00-06:00</start-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p1h-n78-4</layout-key>
+      <start-valid-time>2017-01-07T21:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-07T22:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-07T23:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T01:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T02:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T03:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T04:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T05:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T07:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T08:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T09:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T10:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T11:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T13:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T14:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T15:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T16:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T17:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T19:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T20:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T21:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T22:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-08T23:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T01:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T02:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T03:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T04:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T05:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T07:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T08:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T09:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T10:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T11:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T13:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T14:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T15:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T16:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T17:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T19:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T20:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T21:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T22:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-09T23:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T01:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T02:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T03:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T04:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T05:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T07:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T08:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T09:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T10:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T11:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T13:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T14:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T15:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T16:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T17:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-10T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-11T18:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T00:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T06:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T12:00:00-06:00</start-valid-time>
+      <start-valid-time>2017-01-12T18:00:00-06:00</start-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n7-1">
+	<name>Daily Maximum Temperature</name>
+	<value>20</value>
+	<value>31</value>
+	<value>45</value>
+	<value>32</value>
+	<value>37</value>
+	<value>28</value>
+	<value>27</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n7-2">
+	<name>Daily Minimum Temperature</name>
+	<value>4</value>
+	<value>16</value>
+	<value>29</value>
+	<value>23</value>
+	<value>28</value>
+	<value>23</value>
+	<value>18</value>
+      </temperature>
+      <cloud-amount type="total" units="percent" time-layout="k-p3h-n40-3">
+	<name>Cloud Cover Amount</name>
+	<value>3</value>
+	<value>3</value>
+	<value>3</value>
+	<value>3</value>
+	<value>17</value>
+	<value>16</value>
+	<value>40</value>
+	<value>73</value>
+	<value>89</value>
+	<value>87</value>
+	<value>75</value>
+	<value>63</value>
+	<value>68</value>
+	<value>81</value>
+	<value>92</value>
+	<value>95</value>
+	<value>92</value>
+	<value>99</value>
+	<value>100</value>
+	<value>99</value>
+	<value>98</value>
+	<value>98</value>
+	<value>97</value>
+	<value>86</value>
+	<value>60</value>
+	<value>66</value>
+	<value>57</value>
+	<value>70</value>
+	<value>89</value>
+	<value>93</value>
+	<value>87</value>
+	<value>77</value>
+	<value>84</value>
+	<value>89</value>
+	<value>90</value>
+	<value>88</value>
+	<value>81</value>
+	<value>76</value>
+	<value>67</value>
+	<value>83</value>
+      </cloud-amount>
+      <weather time-layout="k-p3h-n40-3">
+	<name>Weather Type, Coverage, and Intensity</name>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions>
+	  <value coverage="chance" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="chance" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="rain" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	  <value coverage="likely" intensity="light" additive="and" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="rain" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="rain" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="rain" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="rain" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions>
+	  <value coverage="chance" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="likely" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="chance" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions>
+	  <value coverage="slight chance" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions>
+	  <value coverage="slight chance" intensity="light" weather-type="snow" qualifier="none">
+	    <visibility xsi:nil="true"/>
+	  </value>
+	</weather-conditions>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+	<weather-conditions/>
+      </weather>
+      <conditions-icon type="forecast-NWS" time-layout="k-p3h-n40-3">
+	<name>Conditions Icons</name>
+	<icon-link>http://forecast.weather.gov/images/wtf/nskc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nskc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nskc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nskc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/few.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/sct.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/novc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/ovc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn10.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn60.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn60.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nrasn60.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nra60.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/ra70.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/ra70.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/ra70.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn10.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn60.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn60.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nsn10.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/sn20.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/novc.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/bkn.jpg</icon-link>
+	<icon-link>http://forecast.weather.gov/images/wtf/nbkn.jpg</icon-link>
+      </conditions-icon>
+      <hazards time-layout="k-p1h-n78-4">
+	<name>Watches, Warnings, and Advisories</name>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+	<hazard-conditions/>
+      </hazards>
+    </parameters>
+  </data>
+</dwml>

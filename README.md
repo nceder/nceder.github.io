@@ -8,12 +8,12 @@ Contact Naomi Ceder:
 
 ----------
 
-## Talks<
+## Talks
 <p><a href="/talks/iteration-inside-out/">Iteration Inside Out (Europython 2018</a></p>
 
 ----------
 
-##Course materials
+## Course materials
 <!--
 <p><a href="/course_materials/intro/">Intro to Python for non-programmers</a></p>
 <p><a href="/course_materials/intro_coders/">Intro to Python for Programmers</a></p>

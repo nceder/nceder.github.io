@@ -1,10 +1,10 @@
-# Naomi Ceder</h1>
+# Naomi Ceder
 
 Contact Naomi Ceder:
 
-* <a href="mailto:naomi@naomiceder.tech">Email</a>
+* [Email](mailto:naomi@naomiceder.tech)
 * Twitter: @NaomiCeder
-* <a href="https://www.linkedin.com/in/naomiceder">LinkedIn</a>
+* [LinkedIn](https://www.linkedin.com/in/naomiceder)
 
 ----------
 

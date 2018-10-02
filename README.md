@@ -1,3 +1,42 @@
+# Naomi Ceder</h1>
+
+Contact Naomi Ceder:
+
+* <a href="mailto:naomi@naomiceder.tech">Email</a></
+* Twitter: @NaomiCeder
+* <a href="https://www.linkedin.com/in/naomiceder">LinkedIn</a>
+
+----------
+
+## Talks<
+<p><a href="/talks/iteration-inside-out/">Iteration Inside Out (Europython 2018</a></p>
+
+----------
+
+##Course materials
+<!--
+<p><a href="/course_materials/intro/">Intro to Python for non-programmers</a></p>
+<p><a href="/course_materials/intro_coders/">Intro to Python for Programmers</a></p>
+<p><a href="/course_materials/oop/">Object Oriented Python</a></p>
+-->
+<p><a href="/course_materials/intermediate-python/Intermediate-Python.slides.html">Intermediate Python (2018, Bloomberg)</a></p>
+<!--
+<p><a href="/course_materials/code_layout/">Code Layout</a></p>
+-->
+<hr>
+
+<h1>List of links relating to diversity and inclusion</h1>
+<p>My raw, mostly unfiltered list of bookmarks relating to diversity can
+be found <a href="/links/">here</a>.
+</p>
+To add a link or links, please <a href="https://github.com/nceder/nceder.github.io/issues"> create an issue</a>.
+
+
+
+<hr>
+<address></address>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nceder/nceder.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

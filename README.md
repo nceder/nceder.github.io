@@ -2,7 +2,7 @@
 
 Contact Naomi Ceder:
 
-* <a href="mailto:naomi@naomiceder.tech">Email</a></
+* <a href="mailto:naomi@naomiceder.tech">Email</a>
 * Twitter: @NaomiCeder
 * <a href="https://www.linkedin.com/in/naomiceder">LinkedIn</a>
 
